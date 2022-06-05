@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/simsim/static/css/main.e6c13ad2.css",
+    "main.js": "/simsim/static/js/main.5845b135.js",
+    "static/js/787.c533693a.chunk.js": "/simsim/static/js/787.c533693a.chunk.js",
+    "index.html": "/simsim/index.html",
+    "main.e6c13ad2.css.map": "/simsim/static/css/main.e6c13ad2.css.map",
+    "main.5845b135.js.map": "/simsim/static/js/main.5845b135.js.map",
+    "787.c533693a.chunk.js.map": "/simsim/static/js/787.c533693a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.5845b135.js"
+  ]
+}
