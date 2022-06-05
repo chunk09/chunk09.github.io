@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/time.css" />
+    <title>시간 변환</title>
+  </head>
+  <body>
+    <ul>
+      <li><a href="distance.html">거리 단위</a></li>
+      <li><a href="mass.html">질량 단위</a></li>
+      <li><a class="active" href="time.html">시각 단위</a></li>
+      <li><a href="temp.html">온도 단위</a></li>
+    </ul>
+
+    <h2 id="h2_second">초 변환</h2>
+    <input id="input_second" type="number" />
+    <h3 id="second_minute">분 변환 :</h3>
+    <h3 id="second_hour">시 변환 :</h3>
+
+    <h2 id="h2_minute">분 변환</h2>
+    <input id="input_minute" type="number" />
+    <h3 id="minute_second">초 변환 :</h3>
+    <h3 id="minute_hour">시 변환 :</h3>
+
+    <h2 id="h2_hour">시 변환</h2>
+    <input id="input_hour" type="number" />
+    <h3 id="hour_second">초 변환 :</h3>
+    <h3 id="hour_minute">분 변환 :</h3>
+
+    <script src="script/time/time_s.js"></script>
+    <script src="script/time/time_m.js"></script>
+    <script src="script/time/time_h.js"></script>
+  </body>
+</html>
