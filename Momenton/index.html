@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Momenton</title>
+  </head>
+  <body>
+    <h2 id="clock" class="textColor">00:00:00</h2>
+
+    <form class="hidden" id="login-form">
+      <input required maxlength="15" type="text" placeholder="What is your name?" />
+    </form>
+
+    <h1 id="greeting" class="hidden textColor"></h1>
+
+    <form id="todo-form">
+      <input type="text" placeholder="Wirte a To Do and Press Enter" required="" />
+    </form>
+
+    <ul id="todo-list" class="textColor"> </ul>
+
+    <div id="quote">
+      <span class="textColor"></span>
+      <span class="textColor"></span>
+    </div>
+
+    <div id="weather">
+      <span class="textColor weather_move"></span>
+      <span class="textColor weather_move"></span>
+    </div>
+
+    <script src="script/greetings.js"></script>
+    <script src="script/clock.js"></script>
+    <script src="script/quotes.js"></script>
+    <script src="script/background.js"></script>
+    <script src="script/todo.js"></script>
+    <script src="script/weather.js"></script>
+  </body>
+</html>
